@@ -43,10 +43,6 @@ All input data are publicly available. None are redistributed here.
 | ERA5 hourly single-level 10 m winds | Wind-conditioned analysis | https://doi.org/10.24381/cds.adbb2d47; downloaded by the notebook via `cdsapi` |
 | Natural Earth 1:10m land polygons | Coastline in maps | https://www.naturalearthdata.com/; place `ne_10m_land.zip` in `data/raw/basemaps/` |
 
-## Availability statement (draft for the manuscript)
-
-> The HF-radar data can be downloaded from the South African Marine Information Management System at https://odp.saeon.ac.za/mims/catalog/10.15493/DEA.MIMS.20250406 (https://doi.org/10.15493/DEA.MIMS.20250406). The SWOT L3_LR_SSH product (version 3.0), derived from the L2 SWOT KaRIn low rate ocean data products (NASA/JPL and CNES), is produced and made freely available by AVISO and DUACS teams as part of the DESMOS Science Team project at https://www.aviso.altimetry.fr/ (https://doi.org/10.24400/527896/A01-2023.018). Ageostrophic current estimates were obtained from the Copernicus Marine Service products MULTIOBS_GLO_PHY_MYNRT_015_003 (https://doi.org/10.48670/mds-00327) and GLOBAL_ANALYSISFORECAST_WAV_001_027 (https://doi.org/10.48670/moi-00017), available through the Copernicus Marine Data Store. ERA5 hourly 10 m winds were obtained from the Copernicus Climate Data Store (https://doi.org/10.24381/cds.adbb2d47). The code, environment files and notebook used to produce all results, figures and tables are available at https://doi.org/10.5281/zenodo.23616905 (developed at https://github.com/backeb/swot-hfradar).
-
 ## Licence
 
 Code: MIT (see [LICENSE](LICENSE)). Input datasets remain under their providers' licences.
