@@ -4,7 +4,9 @@ title: "swot-hfradar: code for the evaluation of SWOT-derived surface geostrophi
 type: software
 authors:
   - family-names: Backeberg
-    given-names: Bjorn
+    given-names: Björn
+    orcid: "https://orcid.org/0000-0001-7940-6975"
+    affiliation: "Deltares; Nansen Environmental and Remote Sensing Center"
   - family-names: Hart-Davis
     given-names: Michael
     orcid: "https://orcid.org/0000-0001-9342-0335"
