@@ -53,7 +53,6 @@ All input data are publicly available. None are redistributed here.
 - Cite the code and each dataset in the manuscript reference list (AGU requires this in addition to the availability statement).
 - Consider depositing the small matched dataset (`swot_hfradar_zarr_matches.zarr`, under 1 MB) on Zenodo. The larger archives are reproducible from the inputs.
 - Confirm the DOI for the Copernicus currents product (MULTIOBS_GLO_PHY_NRT_015_003); it could not be verified automatically.
-- Confirm the GitHub URL in `CITATION.cff` and this file.
 - Delete this section once complete.
 
 ## Licence
