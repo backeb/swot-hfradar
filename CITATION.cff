@@ -5,6 +5,13 @@ type: software
 authors:
   - family-names: Backeberg
     given-names: Bjorn
+  - family-names: Hart-Davis
+    given-names: Michael
+    orcid: "https://orcid.org/0000-0001-9342-0335"
+    affiliation: "Technical University of Munich"
+  - family-names: Johannessen
+    given-names: Johnny A.
+    affiliation: "Nansen Environmental and Remote Sensing Center"
 license: MIT
 repository-code: "https://github.com/backeb/swot-hfradar"
 # After archiving a release on Zenodo, add:
