@@ -38,21 +38,20 @@ All input data are publicly available. None are redistributed here.
 |---|---|---|
 | SWOT L3 LR SSH Expert, v3.0 (CNES/CLS, AVISO+) | Geostrophic currents (`ugos_filtered`, `vgos_filtered`) | https://doi.org/10.24400/527896/A01-2023.018 (DOI as given in the file metadata); downloaded by the notebook, requires a free AVISO+ account |
 | HF radar sea surface velocity, HYDDOA v2 | Reference currents | https://doi.org/10.15493/DEA.MIMS.20250406 (SAEON; catalogue: https://odp.saeon.ac.za/mims/catalog/10.15493/DEA.MIMS.20250406). Unpack into `data/raw/hf_radar/` |
-| Copernicus Marine `cmems_obs-mob_glo_phy-cur_nrt_0.25deg_PT1H-i` | Tidal, Ekman and geostrophic correction fields | Copernicus Marine Service (product MULTIOBS_GLO_PHY_NRT_015_003). Subset to 20.12-27.88°E, 37.88-33.12°S, 0-15 m, 2023-07-26 to 2026-09-11 into `data/raw/copernicusmarine/` |
+| Copernicus Marine `cmems_obs-mob_glo_phy-cur_nrt_0.25deg_PT1H-i` | Tidal, Ekman and geostrophic correction fields | https://doi.org/10.48670/mds-00327 (product MULTIOBS_GLO_PHY_MYNRT_015_003). Subset to 20.12-27.88°E, 37.88-33.12°S, 0-15 m, 2023-07-26 to 2026-09-11 into `data/raw/copernicusmarine/` |
 | Copernicus Marine `cmems_mod_glo_wav_anfc_0.083deg_PT3H-i` (variables VSDX, VSDY) | Stokes drift | https://doi.org/10.48670/moi-00017; subset to 20-28°E, 38-33°S, same period, into `data/raw/copernicusmarine/` |
 | ERA5 hourly single-level 10 m winds | Wind-conditioned analysis | https://doi.org/10.24381/cds.adbb2d47; downloaded by the notebook via `cdsapi` |
 | Natural Earth 1:10m land polygons | Coastline in maps | https://www.naturalearthdata.com/; place `ne_10m_land.zip` in `data/raw/basemaps/` |
 
 ## Availability statement (draft for the manuscript)
 
-> The SWOT L3 LR SSH Expert product is available from AVISO+ (CNES/CLS) at https://doi.org/10.24400/527896/A01-2023.018. HF radar surface currents processed with HYDDOA v2 are available from the South African Earth Observation Network (SAEON) at https://doi.org/10.15493/DEA.MIMS.20250406. Copernicus Marine products are available from https://data.marine.copernicus.eu, and ERA5 from the Copernicus Climate Data Store at https://doi.org/10.24381/cds.adbb2d47. The code, environment files and notebook used to produce all results, figures and tables are archived at [Zenodo DOI to be added] and developed at https://github.com/backeb/swot-hfradar. The processed Zarr archives derived from these inputs can be regenerated with the notebook.
+> The SWOT L3 LR SSH Expert product is available from AVISO+ (CNES/CLS) at https://doi.org/10.24400/527896/A01-2023.018. HF radar surface currents processed with HYDDOA v2 are available from the South African Earth Observation Network (SAEON) at https://doi.org/10.15493/DEA.MIMS.20250406. The Copernicus Marine surface currents are available at https://doi.org/10.48670/mds-00327 and the wave (Stokes drift) fields at https://doi.org/10.48670/moi-00017. ERA5 is available from the Copernicus Climate Data Store at https://doi.org/10.24381/cds.adbb2d47. The code, environment files and notebook used to produce all results, figures and tables are archived at [Zenodo DOI to be added] and developed at https://github.com/backeb/swot-hfradar. The processed Zarr archives derived from these inputs can be regenerated with the notebook.
 
 ## Remaining actions before submission
 
 - Archive a tagged release on Zenodo (GitHub integration) and insert the DOI in `CITATION.cff` and the statement above.
 - Cite the code and each dataset in the manuscript reference list (AGU requires this in addition to the availability statement).
 - Consider depositing the small matched dataset (`swot_hfradar_zarr_matches.zarr`, under 1 MB) on Zenodo. The larger archives are reproducible from the inputs.
-- Confirm the DOI for the Copernicus currents product (MULTIOBS_GLO_PHY_NRT_015_003); it could not be verified automatically.
 - Delete this section once complete.
 
 ## Licence
