@@ -16,7 +16,5 @@ authors:
     affiliation: "Nansen Environmental and Remote Sensing Center"
 license: MIT
 repository-code: "https://github.com/backeb/swot-hfradar"
-# After archiving a release on Zenodo, add:
-# doi: "10.5281/zenodo.XXXXXXX"
-# version: "1.0.0"
-# date-released: "YYYY-MM-DD"
+doi: "10.5281/zenodo.23616905"  # concept DOI; v1.0.0 is 10.5281/zenodo.23616906
+version: "1.0.0"
