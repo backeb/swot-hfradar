@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "swot-hfradar: code for the evaluation of SWOT-derived surface geostrophic currents using HF radar observations in the southern Agulhas Current"
+type: software
+authors:
+  - family-names: Backeberg
+    given-names: Bjorn
+license: MIT
+repository-code: "https://github.com/backeb/swot-hfradar"
+# After archiving a release on Zenodo, add:
+# doi: "10.5281/zenodo.XXXXXXX"
+# version: "1.0.0"
+# date-released: "YYYY-MM-DD"

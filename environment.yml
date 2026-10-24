@@ -1,0 +1,33 @@
+name: swot-hfradar
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - jupyterlab
+  - notebook
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - dask
+  - netcdf4
+  - h5py
+  - zarr
+  - fsspec
+  - cdsapi
+  - requests
+  - matplotlib
+  - folium
+  - geopandas
+  - cartopy
+  - pyproj
+  - shapely
+  - xesmf
+  - gsw
+  - cmocean
+  - altimetry-downloader-aviso
+  - plotly
+  - pip:
+      - utide
