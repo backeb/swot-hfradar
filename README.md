@@ -45,12 +45,13 @@ All input data are publicly available. None are redistributed here.
 
 ## Availability statement (draft for the manuscript)
 
-> The SWOT L3 LR SSH Expert product is available from AVISO+ (CNES/CLS) at https://doi.org/10.24400/527896/A01-2023.018. HF radar surface currents processed with HYDDOA v2 are available from the South African Earth Observation Network (SAEON) at https://doi.org/10.15493/DEA.MIMS.20250406. The Copernicus Marine surface currents are available at https://doi.org/10.48670/mds-00327 and the wave (Stokes drift) fields at https://doi.org/10.48670/moi-00017. ERA5 is available from the Copernicus Climate Data Store at https://doi.org/10.24381/cds.adbb2d47. The code, environment files and notebook used to produce all results, figures and tables are archived at [Zenodo DOI to be added] and developed at https://github.com/backeb/swot-hfradar. The processed Zarr archives derived from these inputs can be regenerated with the notebook.
+> The HF-radar data can be downloaded from the South African Marine Information Management System at https://odp.saeon.ac.za/mims/catalog/10.15493/DEA.MIMS.20250406 (https://doi.org/10.15493/DEA.MIMS.20250406). The SWOT L3_LR_SSH product (version 3.0), derived from the L2 SWOT KaRIn low rate ocean data products (NASA/JPL and CNES), is produced and made freely available by AVISO and DUACS teams as part of the DESMOS Science Team project at https://www.aviso.altimetry.fr/ (https://doi.org/10.24400/527896/A01-2023.018). Ageostrophic current estimates were obtained from the Copernicus Marine Service products MULTIOBS_GLO_PHY_MYNRT_015_003 (https://doi.org/10.48670/mds-00327) and GLOBAL_ANALYSISFORECAST_WAV_001_027 (https://doi.org/10.48670/moi-00017), available through the Copernicus Marine Data Store. ERA5 hourly 10 m winds were obtained from the Copernicus Climate Data Store (https://doi.org/10.24381/cds.adbb2d47). The code, environment files and notebook used to produce all results, figures and tables are available at [Zenodo DOI to be added] (developed at https://github.com/backeb/swot-hfradar).
 
 ## Remaining actions before submission
 
 - Archive a tagged release on Zenodo (GitHub integration) and insert the DOI in `CITATION.cff` and the statement above.
-- Cite the code and each dataset in the manuscript reference list (AGU requires this in addition to the availability statement).
+- Cite the code and each dataset (including ERA5, Hersbach et al., 2023) in the manuscript reference list; AGU requires this in addition to the availability statement.
+- Remove the ERA5 sentence from the statement if the wind analysis is not in the paper.
 - Delete this section once complete.
 
 ## Licence
